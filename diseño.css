@@ -1,0 +1,231 @@
+    @import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;500;800&family=Titillium+Web:ital,wght@0,600;1,400&display=swap');
+    
+    @media(max-width: 768px)
+    { .nosotrosmodificado {background-color:red; font-size:18px;} }
+
+    header h1 {
+  		color: black;
+      font-size: 35px;
+      font-family: 'Spectral SC', serif;
+      background-image: url(banner-cerveza.png);
+      border: solid 5px;
+      padding: 5px;
+      margin: 5px;
+     
+    }
+  	
+  	
+    ul li a {
+  		color: black;
+  		font-size: 30px;
+      font-family: 'Titillium Web', sans-serif;
+  	}
+
+    ul li {
+      list-style-type: none;
+      list-style-position: outside;
+      padding: 15px
+      margin: 15px;
+      border: 15px;
+      border-style: double;
+    }
+  	
+    footer {
+  		color: black;
+  		background: red;
+  		font-size: 25px;
+      font-family: 'Spectral SC', serif;
+      padding: 2px
+      margin: 5px;
+      border: 15px;
+
+  	}
+
+    header h2 {
+      color: black;
+      background: red;
+      font-size: 20px; 
+      font-family: 'Spectral SC', serif;
+      padding: 10px
+      margin: 9px;
+      border: 10px;
+    }
+
+    header p {
+      color: black;
+      font-size: 25px;
+      font-family: 'Spectral SC', serif;
+      font-width: 200px
+      padding: 10px;
+      margin: 15px;
+      border: 5px;
+    }
+
+    h3 {
+      color: black;
+      background: red;
+      font-size: 20px;
+      font-family: 'Titillium Web', sans-serif;
+      padding: 5px
+      margin: 15px;
+      border: 5px;
+    }
+
+    body {
+      background-image: url(burbujas2.jpg);
+      background-size: cover;
+    }
+
+    .logo {
+      width: 9rem;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 0px;
+      margin: 60px;
+
+    }
+
+    #miniatura {
+      padding: 10px;
+      margin: auto;
+    }
+
+
+    #gridArea {
+      justify-content: space-around;
+      display: grid;
+      border-style: solid;
+      border-width: 10px;
+      border-color: black;
+      margin: 20px;
+      border: 20px;
+      padding: 20px;
+      font-size: 30px;
+      grid-template-areas: 
+      "uno dos tres"
+      "cuatro cinco seis"
+      "siete ocho nueve"
+    }
+
+    #gridArea div:hover {
+      background-color: yellow;
+      color: brown;
+      font-size: 30px;
+      border-color: brown;
+      margin: 12px;
+      height: 350px;
+      width: 350px;
+
+    }
+
+    #gridArea div {
+      padding: 5px;
+      border-style: solid;
+      border-color: black;
+      margin: 10px;
+      background-color: green;
+      transition: 3s;
+      height: 300px;
+      width: 300px;
+      font-size: 20px;
+    }
+
+    #gridArea .uno {
+      grid-area: uno;
+      background-color: lime;
+      text-align: center;
+
+    }
+
+    #gridArea .dos {
+      grid-area: dos;
+      background-color: violet;
+      text-align: center;
+
+    }
+
+    #gridArea .tres {
+      grid-area: tres;
+      background-color: orange;
+      text-align: center;
+    }
+
+    #gridArea .cuatro {
+      grid-area: cuatro;
+      background-color: lime;
+      text-align: center;
+      transition: all 2s;
+
+    }
+
+    .cervezaKolsch {
+      width: 8rem;
+    }
+
+    #gridArea .cinco {
+      grid-area: cinco;
+      background-color: violet;
+      text-align: center;
+      transition: all 2s;
+    }
+
+    .redFreedom {
+      width: 6rem;
+    }
+
+    #gridArea .seis {
+      grid-area: seis;
+      background-color: orange;
+      text-align: center;
+      transition: all 2s;
+    }
+
+    .nitroStout {
+      width: 6rem;
+    }
+
+    #fondoDeLista {
+      background-color: white;
+      padding: 0px;
+      margin: 30px;
+    }
+
+    .name {
+      display: block;
+      transition: all 3s;
+      height: 50px;
+      width: 100px;
+    }
+
+    .name:focus {
+      width: 200px;
+      height: 200px;
+      font-size: 30px;
+    }
+
+    footer {
+      animation-iteration-count: infinite;
+      animation-duration: 5s;
+      animation-name: footer;
+    }
+
+    @keyframes footer {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+  
+  }
+
+  .nosotros--modificado {background-color: yellow; font-size: 40px;
+  }
+
+  
+
