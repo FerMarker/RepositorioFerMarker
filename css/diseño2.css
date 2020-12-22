@@ -7,7 +7,7 @@
   		color: black;
       font-size: 35px;
       font-family: 'Spectral SC', serif;
-      background-image: url(banner-cerveza.png);
+      background-image: url(images/banner-cerveza.png);
       border: solid 5px;
       padding: 5px;
       margin: 5px;
@@ -72,6 +72,7 @@
     }
 
     body {
+      background-color: #FFDD33;
       background-image: url(burbujas2.jpg);
       background-size: cover;
     }
